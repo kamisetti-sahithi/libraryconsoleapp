@@ -4,9 +4,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
-@Table(name = "library")
+@Table(name = "author")
 
 public class Author {
+	@Id
 	
     private String id;
 

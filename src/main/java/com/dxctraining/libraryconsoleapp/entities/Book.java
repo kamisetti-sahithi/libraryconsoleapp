@@ -7,7 +7,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "library")
 
+
 public class Book {
+	@Id
 	
     private String id;
 	private String name;
